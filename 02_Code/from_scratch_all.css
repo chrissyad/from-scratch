@@ -4,34 +4,39 @@ body {
 }
 
 h1	{
-	
+	font-family: 'Rock Salt', cursive;
+	font-size: 42px;
 }
 
 h2 {
 	margin: 30px auto 30px auto;
+	font-family: 'Droid Sans', sans-serif;
 }
 
 
 h3 {
 	margin-top: 50px;
 	border-bottom: solid 1px #444444;
+	font-family: 'Droid Sans', sans-serif;
 	
 }
 
 h4 {
-	
+	font-family: 'Droid Sans', sans-serif;
 }
 
 p {
 	margin: 0 auto 0 auto;
 	width: 600px;
 	line-height: 1.5;
+	font-family: 'Droid Sans', sans-serif;
+	text-align: justify;
 	
 }
 
 .header {
 	background-color: #3c6973;
-	padding: 50px 0 15px 0;
+	padding: 30px 0 15px 0;
 	
 }
 .header h1 {
@@ -62,6 +67,7 @@ p {
 
 .nav a {
 	color:  #c9ebf2;
+	font-family: 'Droid Sans', sans-serif;
 }
 
 .about {
