@@ -9,23 +9,23 @@ h1	{
 
 h2 {
 	margin: 30px auto 30px auto;
-	text-align: center;
 }
 
 
 h3 {
 	margin-top: 50px;
 	border-bottom: solid 1px #444444;
-	width: 768px;
+	
 }
 
 h4 {
-	width: 768px;
+	
 }
 
 p {
 	margin: 0 auto 0 auto;
-	width: 768px;
+	width: 600px;
+	line-height: 1.5;
 	
 }
 
@@ -44,22 +44,51 @@ p {
 	text-align: center;
 }
 
+.nav {
+	margin: auto;
+	padding: 0;
+}	
+
+.nav li {
+	display: inline;
+	padding-right: 20px;
+	color:  #c9ebf2;
+}
+
+.nav li:last-child {
+	padding-right: 0;
+}
+
+
+.nav a {
+	color:  #c9ebf2;
+}
 
 .about {
 	margin: auto;
+}
+
+.about h2 {
+	text-align: center;
 }
 
 .blog {
 	margin: auto;
 }
 
-.nav {
-	margin: auto;
-}	
-
-.nav li{
-	display: inline;
-	padding-right: 20px;
-	color:  #c9ebf2;
-
+.blog h2 {
+	text-align: center;
 }
+
+.blog h3 {
+	text-align: center;
+}
+
+.blog h4 {
+	text-align: center;
+}
+
+
+
+
+
