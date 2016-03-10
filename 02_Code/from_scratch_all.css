@@ -1,52 +1,157 @@
 
-
-
 body {
-	margin-bottom: 50px;
+	margin: 0 0 50px 0;
+
 }
 
 h1	{
+	font-family: 'Rock Salt', cursive;
+	font-size: 50px;
+
 }
 
 h2 {
-	margin-top: 30px;
-	margin-bottom: 15px;
+	margin: 30px auto 30px auto;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 28px;
 }
 
 
 h3 {
-	margin-top: 50px;
+	margin: 50px auto 0 auto;
 	border-bottom: solid 1px #444444;
+	font-family: 'Droid Sans', sans-serif;
+	width: 600px;
+	font-size: 22px;
+	
+}
+
+h4 {
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 20px;
+	width: 600px;
+	margin: 30px auto 30px auto;
 }
 
 p {
-	width: 550px;
-	margin: 10px;
+	margin: 0 auto 0 auto;
+	width: 600px;
+	line-height: 1.5;
+	font-family: 'Droid Sans', sans-serif;
+	text-align: justify;
 }
 
 .header {
-	background-color: #81d8d0;
-	padding: 50px 0 15px 30px;
-	margin-left: 5px;
+	background-color: #3c6973;
+	padding: 20px 0 15px 0;
+	
 }
 .header h1 {
-	text-decoration: underline;
+
+	color: #c9ebf2;
+	text-align: center;
 }
 
-
-.about {
-	margin-left: 30px;
-}
-
-.blog {
-	margin-left: 30px;
+.header ul {
+	text-align: center;
 }
 
 .nav {
-	padding-left: 0;
+	margin: auto;
+	padding: 0;
 }	
 
-.nav li{
+.nav li {
 	display: inline;
-	padding-right: 20px;
+	padding-right: 40px;
+	color:  #c9ebf2;
+}
+
+.nav li:last-child {
+	padding-right: 0;
+}
+
+
+.nav a {
+	color:  #c9ebf2;
+	font-family: 'Droid Sans', sans-serif;
+}
+
+.about {
+	margin: auto;
+}
+
+.about h2 {
+	text-align: center;
+}
+
+.blog {
+	margin: auto;
+}
+
+.blog h2 {
+	text-align: center;
+}
+
+.blog h3 {
+	text-align: left;
+
+}
+
+.blog h4 {
+
+	text-align: left;
+	
+}
+
+img {
+	display: block;
+	margin: auto 0 auto 0;
+	width: 600px;
+}
+
+.archive {
+	
+}
+
+.archive img {
+	border: solid 1px; 
+	margin: 15px 0 15px 0;
+}
+
+.archive h3 {
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+
+.backlog {
+	margin: 0 auto;
+	width: 600px; 
+}
+
+.backlog h3 {
+	text-align: center;
+}
+
+.backlog li {
+	font-family: "Droid Sans", sans-serif;
+	line-height: 2.5;
+}
+
+.backlog ol {
+	list-style: circle;
+	margin: 0 auto 0 auto;
+}
+
+.impressum {
+	width: 600px;
+	text-align: justify;
+	margin: 0 auto;
+}
+
+.impressum p {
+	text-align: justify;
+}
+
 
